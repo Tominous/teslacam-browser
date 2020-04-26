@@ -179,9 +179,9 @@
 		var folderPathParts = folderNames
 			.map( ( f, i ) => { return { path: path.join( ...folderNames.slice( 0, i + 1 ) ), name: f } } )
 
-		//console.log( parsedFolder )
-		//console.log( folderNames )
-		//console.log( folderPathParts )
+		console.log( parsedFolder )
+		console.log( folderNames )
+		console.log( folderPathParts )
 
 		function isDirectory( p )
 		{
